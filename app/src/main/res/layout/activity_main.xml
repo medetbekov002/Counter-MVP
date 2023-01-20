@@ -19,17 +19,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/incrementBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cornerRadius="40dp"
         android:textSize="40sp"
         android:text="+"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/decrementBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:cornerRadius="40dp"
         android:textSize="40sp"
         android:text="-"/>
 </LinearLayout>
