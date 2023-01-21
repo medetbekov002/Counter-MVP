@@ -1,6 +1,5 @@
 package com.example.homework5_1
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
