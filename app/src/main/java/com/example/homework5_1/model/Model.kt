@@ -1,13 +1,13 @@
-package com.example.homework5_1.Model
+package com.example.homework5_1.model
 
 class Model {
     var count = 0
 
     fun increment() {
-        count++
+        ++count
     }
 
     fun decrement() {
-        count--
+        --count
     }
 }
